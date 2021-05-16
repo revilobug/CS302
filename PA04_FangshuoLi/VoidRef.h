@@ -1,0 +1,22 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+//	File: VoidRef.h
+//
+//	$Header: $
+//
+//
+//	This defines the key-value pair structure used by all of the balanced
+//	tree algorithms tested.
+//
+/////////////////////////////////////////////////////////////////////////////
+
+
+#pragma once
+
+#include <cstdint>
+
+struct VoidRef_t
+{
+	std::uint32_t  Key;
+	void* pContext;
+};

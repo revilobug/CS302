@@ -1,0 +1,2 @@
+#define MAX_RAND 1000000
+#define INTEGER_COUNT 1000
